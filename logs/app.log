@@ -1,0 +1,489 @@
+2023-04-02T21:58:34.458+0800	[34mINFO[0m	[Request Body: {
+  "event": "OPENPIX:TRANSACTION_RECEIVED",
+  "charge": null,
+  "pixQrCode": {
+    "name": "real pay",
+    "value": null,
+    "comment": "Flexible timely collection code",
+    "identifier": "realgolden",
+    "correlationID": "c770afb7-de53-442b-b275-1982f3d859a5",
+    "paymentLinkID": "ab16ede3-a881-4212-95c3-616dcfc7b66f",
+    "createdAt": "2023-03-30T02:55:33.799Z",
+    "updatedAt": "2023-03-30T02:55:33.799Z",
+    "brCode": "00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44",
+    "paymentLinkUrl": "https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f",
+    "qrCodeImage": "https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png"
+  },
+  "pix": {
+    "payer": {
+      "name": "Wang Cheng Yuan",
+      "taxID": { "taxID": "23271983801", "type": "BR:CPF" },
+      "correlationID": "3d4a4354-9697-4e0f-a1c2-36ece4e40d4d"
+    },
+    "value": 500,
+    "time": "2023-03-30T03:02:30.394Z",
+    "endToEndId": "E18236120202303300302s0176edc4e0",
+    "transactionID": "realgolden",
+    "type": "PAYMENT",
+    "pixQrCode": {
+      "name": "real pay",
+      "value": null,
+      "comment": "Flexible timely collection code",
+      "identifier": "realgolden",
+      "correlationID": "c770afb7-de53-442b-b275-1982f3d859a5",
+      "paymentLinkID": "ab16ede3-a881-4212-95c3-616dcfc7b66f",
+      "createdAt": "2023-03-30T02:55:33.799Z",
+      "updatedAt": "2023-03-30T02:55:33.799Z",
+      "brCode": "00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44",
+      "paymentLinkUrl": "https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f",
+      "qrCodeImage": "https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png"
+    },
+    "createdAt": "2023-03-30T03:02:34.486Z",
+    "pixKey": "0c903356-7a18-4b5c-9377-bf780cafa2ef",
+    "globalID": "UGl4VHJhbnNhY3Rpb246NjQyNGZiY2FlYTY5ZDQ3ZmIzMTA4NTQy"
+  },
+  "company": {
+    "id": "63fdfcba2049336bbded05cd",
+    "name": "GOLDEN & MONEY COBRANCAS E INTERMEDIACOES LTDA",
+    "taxID": "10015421000140"
+  },
+  "account": { "clientId": "AF8EC419-D521-B6D7-EA8D-867F98CCECA1" },
+  "refunds": []
+}
+]
+2023-04-02T21:58:34.479+0800	[34mINFO[0m	[{OPENPIX:TRANSACTION_RECEIVED <nil> {real pay <nil> Flexible timely collection code realgolden c770afb7-de53-442b-b275-1982f3d859a5 ab16ede3-a881-4212-95c3-616dcfc7b66f 2023-03-30T02:55:33.799Z 2023-03-30T02:55:33.799Z 00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44 https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png} {{Wang Cheng Yuan {23271983801 BR:CPF} 3d4a4354-9697-4e0f-a1c2-36ece4e40d4d} 500 2023-03-30T03:02:30.394Z E18236120202303300302s0176edc4e0 realgolden PAYMENT {real pay <nil> Flexible timely collection code realgolden c770afb7-de53-442b-b275-1982f3d859a5 ab16ede3-a881-4212-95c3-616dcfc7b66f 2023-03-30T02:55:33.799Z 2023-03-30T02:55:33.799Z 00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44 https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png} 2023-03-30T03:02:34.486Z 0c903356-7a18-4b5c-9377-bf780cafa2ef UGl4VHJhbnNhY3Rpb246NjQyNGZiY2FlYTY5ZDQ3ZmIzMTA4NTQy} {63fdfcba2049336bbded05cd GOLDEN & MONEY COBRANCAS E INTERMEDIACOES LTDA 10015421000140} {AF8EC419-D521-B6D7-EA8D-867F98CCECA1} []}]
+2023-04-02T22:19:42.890+0800	[34mINFO[0m	[Request Body: {
+  "event": "OPENPIX:TRANSACTION_RECEIVED",
+  "charge": null,
+  "pixQrCode": {
+    "name": "real pay",
+    "value": null,
+    "comment": "Flexible timely collection code",
+    "identifier": "realgolden",
+    "correlationID": "c770afb7-de53-442b-b275-1982f3d859a5",
+    "paymentLinkID": "ab16ede3-a881-4212-95c3-616dcfc7b66f",
+    "createdAt": "2023-03-30T02:55:33.799Z",
+    "updatedAt": "2023-03-30T02:55:33.799Z",
+    "brCode": "00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44",
+    "paymentLinkUrl": "https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f",
+    "qrCodeImage": "https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png"
+  },
+  "pix": {
+    "payer": {
+      "name": "Wang Cheng Yuan",
+      "taxID": { "taxID": "23271983801", "type": "BR:CPF" },
+      "correlationID": "3d4a4354-9697-4e0f-a1c2-36ece4e40d4d"
+    },
+    "value": 500,
+    "time": "2023-03-30T03:02:30.394Z",
+    "endToEndId": "E18236120202303300302s0176edc4e0",
+    "transactionID": "realgolden",
+    "type": "PAYMENT",
+    "pixQrCode": {
+      "name": "real pay",
+      "value": null,
+      "comment": "Flexible timely collection code",
+      "identifier": "realgolden",
+      "correlationID": "c770afb7-de53-442b-b275-1982f3d859a5",
+      "paymentLinkID": "ab16ede3-a881-4212-95c3-616dcfc7b66f",
+      "createdAt": "2023-03-30T02:55:33.799Z",
+      "updatedAt": "2023-03-30T02:55:33.799Z",
+      "brCode": "00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44",
+      "paymentLinkUrl": "https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f",
+      "qrCodeImage": "https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png"
+    },
+    "createdAt": "2023-03-30T03:02:34.486Z",
+    "pixKey": "0c903356-7a18-4b5c-9377-bf780cafa2ef",
+    "globalID": "UGl4VHJhbnNhY3Rpb246NjQyNGZiY2FlYTY5ZDQ3ZmIzMTA4NTQy"
+  },
+  "company": {
+    "id": "63fdfcba2049336bbded05cd",
+    "name": "GOLDEN & MONEY COBRANCAS E INTERMEDIACOES LTDA",
+    "taxID": "10015421000140"
+  },
+  "account": { "clientId": "AF8EC419-D521-B6D7-EA8D-867F98CCECA1" },
+  "refunds": []
+}
+]
+2023-04-02T22:19:42.905+0800	[34mINFO[0m	[{OPENPIX:TRANSACTION_RECEIVED <nil> {real pay <nil> Flexible timely collection code realgolden c770afb7-de53-442b-b275-1982f3d859a5 ab16ede3-a881-4212-95c3-616dcfc7b66f 2023-03-30T02:55:33.799Z 2023-03-30T02:55:33.799Z 00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44 https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png} {{Wang Cheng Yuan {23271983801 BR:CPF} 3d4a4354-9697-4e0f-a1c2-36ece4e40d4d} 500 2023-03-30T03:02:30.394Z E18236120202303300302s0176edc4e0 realgolden PAYMENT {real pay <nil> Flexible timely collection code realgolden c770afb7-de53-442b-b275-1982f3d859a5 ab16ede3-a881-4212-95c3-616dcfc7b66f 2023-03-30T02:55:33.799Z 2023-03-30T02:55:33.799Z 00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44 https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png} 2023-03-30T03:02:34.486Z 0c903356-7a18-4b5c-9377-bf780cafa2ef UGl4VHJhbnNhY3Rpb246NjQyNGZiY2FlYTY5ZDQ3ZmIzMTA4NTQy} {63fdfcba2049336bbded05cd GOLDEN & MONEY COBRANCAS E INTERMEDIACOES LTDA 10015421000140} {AF8EC419-D521-B6D7-EA8D-867F98CCECA1} []}]
+2023-04-02T22:20:09.172+0800	[34mINFO[0m	[Request Body: {
+  "event": "OPENPIX:TRANSACTION_RECEIVED",
+  "charge": null,
+  "pixQrCode": {
+    "name": "real pay",
+    "value": null,
+    "comment": "Flexible timely collection code",
+    "identifier": "realgolden",
+    "correlationID": "c770afb7-de53-442b-b275-1982f3d859a5",
+    "paymentLinkID": "ab16ede3-a881-4212-95c3-616dcfc7b66f",
+    "createdAt": "2023-03-30T02:55:33.799Z",
+    "updatedAt": "2023-03-30T02:55:33.799Z",
+    "brCode": "00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44",
+    "paymentLinkUrl": "https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f",
+    "qrCodeImage": "https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png"
+  },
+  "pix": {
+    "payer": {
+      "name": "Wang Cheng Yuan",
+      "taxID": { "taxID": "23271983801", "type": "BR:CPF" },
+      "correlationID": "3d4a4354-9697-4e0f-a1c2-36ece4e40d4d"
+    },
+    "value": 500,
+    "time": "2023-03-30T03:02:30.394Z",
+    "endToEndId": "E18236120202303300302s0176edc4e0",
+    "transactionID": "realgolden",
+    "type": "PAYMENT",
+    "pixQrCode": {
+      "name": "real pay",
+      "value": null,
+      "comment": "Flexible timely collection code",
+      "identifier": "realgolden",
+      "correlationID": "c770afb7-de53-442b-b275-1982f3d859a5",
+      "paymentLinkID": "ab16ede3-a881-4212-95c3-616dcfc7b66f",
+      "createdAt": "2023-03-30T02:55:33.799Z",
+      "updatedAt": "2023-03-30T02:55:33.799Z",
+      "brCode": "00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44",
+      "paymentLinkUrl": "https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f",
+      "qrCodeImage": "https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png"
+    },
+    "createdAt": "2023-03-30T03:02:34.486Z",
+    "pixKey": "0c903356-7a18-4b5c-9377-bf780cafa2ef",
+    "globalID": "UGl4VHJhbnNhY3Rpb246NjQyNGZiY2FlYTY5ZDQ3ZmIzMTA4NTQy"
+  },
+  "company": {
+    "id": "63fdfcba2049336bbded05cd",
+    "name": "GOLDEN & MONEY COBRANCAS E INTERMEDIACOES LTDA",
+    "taxID": "10015421000140"
+  },
+  "account": { "clientId": "AF8EC419-D521-B6D7-EA8D-867F98CCECA1" },
+  "refunds": []
+}
+]
+2023-04-02T22:20:09.177+0800	[34mINFO[0m	[{OPENPIX:TRANSACTION_RECEIVED <nil> {real pay <nil> Flexible timely collection code realgolden c770afb7-de53-442b-b275-1982f3d859a5 ab16ede3-a881-4212-95c3-616dcfc7b66f 2023-03-30T02:55:33.799Z 2023-03-30T02:55:33.799Z 00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44 https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png} {{Wang Cheng Yuan {23271983801 BR:CPF} 3d4a4354-9697-4e0f-a1c2-36ece4e40d4d} 500 2023-03-30T03:02:30.394Z E18236120202303300302s0176edc4e0 realgolden PAYMENT {real pay <nil> Flexible timely collection code realgolden c770afb7-de53-442b-b275-1982f3d859a5 ab16ede3-a881-4212-95c3-616dcfc7b66f 2023-03-30T02:55:33.799Z 2023-03-30T02:55:33.799Z 00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44 https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png} 2023-03-30T03:02:34.486Z 0c903356-7a18-4b5c-9377-bf780cafa2ef UGl4VHJhbnNhY3Rpb246NjQyNGZiY2FlYTY5ZDQ3ZmIzMTA4NTQy} {63fdfcba2049336bbded05cd GOLDEN & MONEY COBRANCAS E INTERMEDIACOES LTDA 10015421000140} {AF8EC419-D521-B6D7-EA8D-867F98CCECA1} []}]
+2023-04-02T22:20:29.636+0800	[34mINFO[0m	[Request Body: {
+  "event": "OPENPIX:TRANSACTION_RECEIVED",
+  "charge": null,
+  "pixQrCode": {
+    "name": "real pay",
+    "value": null,
+    "comment": "Flexible timely collection code",
+    "identifier": "realgolden",
+    "correlationID": "c770afb7-de53-442b-b275-1982f3d859a5",
+    "paymentLinkID": "ab16ede3-a881-4212-95c3-616dcfc7b66f",
+    "createdAt": "2023-03-30T02:55:33.799Z",
+    "updatedAt": "2023-03-30T02:55:33.799Z",
+    "brCode": "00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44",
+    "paymentLinkUrl": "https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f",
+    "qrCodeImage": "https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png"
+  },
+  "pix": {
+    "payer": {
+      "name": "Wang Cheng Yuan",
+      "taxID": { "taxID": "23271983801", "type": "BR:CPF" },
+      "correlationID": "3d4a4354-9697-4e0f-a1c2-36ece4e40d4d"
+    },
+    "value": 500,
+    "time": "2023-03-30T03:02:30.394Z",
+    "endToEndId": "E18236120202303300302s0176edc4e0",
+    "transactionID": "realgolden",
+    "type": "PAYMENT",
+    "pixQrCode": {
+      "name": "real pay",
+      "value": null,
+      "comment": "Flexible timely collection code",
+      "identifier": "realgolden",
+      "correlationID": "c770afb7-de53-442b-b275-1982f3d859a5",
+      "paymentLinkID": "ab16ede3-a881-4212-95c3-616dcfc7b66f",
+      "createdAt": "2023-03-30T02:55:33.799Z",
+      "updatedAt": "2023-03-30T02:55:33.799Z",
+      "brCode": "00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44",
+      "paymentLinkUrl": "https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f",
+      "qrCodeImage": "https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png"
+    },
+    "createdAt": "2023-03-30T03:02:34.486Z",
+    "pixKey": "0c903356-7a18-4b5c-9377-bf780cafa2ef",
+    "globalID": "UGl4VHJhbnNhY3Rpb246NjQyNGZiY2FlYTY5ZDQ3ZmIzMTA4NTQy"
+  },
+  "company": {
+    "id": "63fdfcba2049336bbded05cd",
+    "name": "GOLDEN & MONEY COBRANCAS E INTERMEDIACOES LTDA",
+    "taxID": "10015421000140"
+  },
+  "account": { "clientId": "AF8EC419-D521-B6D7-EA8D-867F98CCECA1" },
+  "refunds": []
+}
+]
+2023-04-02T22:20:29.641+0800	[34mINFO[0m	[{OPENPIX:TRANSACTION_RECEIVED <nil> {real pay <nil> Flexible timely collection code realgolden c770afb7-de53-442b-b275-1982f3d859a5 ab16ede3-a881-4212-95c3-616dcfc7b66f 2023-03-30T02:55:33.799Z 2023-03-30T02:55:33.799Z 00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44 https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png} {{Wang Cheng Yuan {23271983801 BR:CPF} 3d4a4354-9697-4e0f-a1c2-36ece4e40d4d} 500 2023-03-30T03:02:30.394Z E18236120202303300302s0176edc4e0 realgolden PAYMENT {real pay <nil> Flexible timely collection code realgolden c770afb7-de53-442b-b275-1982f3d859a5 ab16ede3-a881-4212-95c3-616dcfc7b66f 2023-03-30T02:55:33.799Z 2023-03-30T02:55:33.799Z 00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44 https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png} 2023-03-30T03:02:34.486Z 0c903356-7a18-4b5c-9377-bf780cafa2ef UGl4VHJhbnNhY3Rpb246NjQyNGZiY2FlYTY5ZDQ3ZmIzMTA4NTQy} {63fdfcba2049336bbded05cd GOLDEN & MONEY COBRANCAS E INTERMEDIACOES LTDA 10015421000140} {AF8EC419-D521-B6D7-EA8D-867F98CCECA1} []}]
+2023-04-02T22:20:33.620+0800	[34mINFO[0m	[Request Body: {
+  "event": "OPENPIX:TRANSACTION_RECEIVED",
+  "charge": null,
+  "pixQrCode": {
+    "name": "real pay",
+    "value": null,
+    "comment": "Flexible timely collection code",
+    "identifier": "realgolden",
+    "correlationID": "c770afb7-de53-442b-b275-1982f3d859a5",
+    "paymentLinkID": "ab16ede3-a881-4212-95c3-616dcfc7b66f",
+    "createdAt": "2023-03-30T02:55:33.799Z",
+    "updatedAt": "2023-03-30T02:55:33.799Z",
+    "brCode": "00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44",
+    "paymentLinkUrl": "https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f",
+    "qrCodeImage": "https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png"
+  },
+  "pix": {
+    "payer": {
+      "name": "Wang Cheng Yuan",
+      "taxID": { "taxID": "23271983801", "type": "BR:CPF" },
+      "correlationID": "3d4a4354-9697-4e0f-a1c2-36ece4e40d4d"
+    },
+    "value": 500,
+    "time": "2023-03-30T03:02:30.394Z",
+    "endToEndId": "E18236120202303300302s0176edc4e0",
+    "transactionID": "realgolden",
+    "type": "PAYMENT",
+    "pixQrCode": {
+      "name": "real pay",
+      "value": null,
+      "comment": "Flexible timely collection code",
+      "identifier": "realgolden",
+      "correlationID": "c770afb7-de53-442b-b275-1982f3d859a5",
+      "paymentLinkID": "ab16ede3-a881-4212-95c3-616dcfc7b66f",
+      "createdAt": "2023-03-30T02:55:33.799Z",
+      "updatedAt": "2023-03-30T02:55:33.799Z",
+      "brCode": "00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44",
+      "paymentLinkUrl": "https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f",
+      "qrCodeImage": "https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png"
+    },
+    "createdAt": "2023-03-30T03:02:34.486Z",
+    "pixKey": "0c903356-7a18-4b5c-9377-bf780cafa2ef",
+    "globalID": "UGl4VHJhbnNhY3Rpb246NjQyNGZiY2FlYTY5ZDQ3ZmIzMTA4NTQy"
+  },
+  "company": {
+    "id": "63fdfcba2049336bbded05cd",
+    "name": "GOLDEN & MONEY COBRANCAS E INTERMEDIACOES LTDA",
+    "taxID": "10015421000140"
+  },
+  "account": { "clientId": "AF8EC419-D521-B6D7-EA8D-867F98CCECA1" },
+  "refunds": []
+}
+]
+2023-04-02T22:20:33.624+0800	[34mINFO[0m	[{OPENPIX:TRANSACTION_RECEIVED <nil> {real pay <nil> Flexible timely collection code realgolden c770afb7-de53-442b-b275-1982f3d859a5 ab16ede3-a881-4212-95c3-616dcfc7b66f 2023-03-30T02:55:33.799Z 2023-03-30T02:55:33.799Z 00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44 https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png} {{Wang Cheng Yuan {23271983801 BR:CPF} 3d4a4354-9697-4e0f-a1c2-36ece4e40d4d} 500 2023-03-30T03:02:30.394Z E18236120202303300302s0176edc4e0 realgolden PAYMENT {real pay <nil> Flexible timely collection code realgolden c770afb7-de53-442b-b275-1982f3d859a5 ab16ede3-a881-4212-95c3-616dcfc7b66f 2023-03-30T02:55:33.799Z 2023-03-30T02:55:33.799Z 00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44 https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png} 2023-03-30T03:02:34.486Z 0c903356-7a18-4b5c-9377-bf780cafa2ef UGl4VHJhbnNhY3Rpb246NjQyNGZiY2FlYTY5ZDQ3ZmIzMTA4NTQy} {63fdfcba2049336bbded05cd GOLDEN & MONEY COBRANCAS E INTERMEDIACOES LTDA 10015421000140} {AF8EC419-D521-B6D7-EA8D-867F98CCECA1} []}]
+2023-04-02T22:20:37.138+0800	[34mINFO[0m	[Request Body: {
+  "event": "OPENPIX:TRANSACTION_RECEIVED",
+  "charge": null,
+  "pixQrCode": {
+    "name": "real pay",
+    "value": null,
+    "comment": "Flexible timely collection code",
+    "identifier": "realgolden",
+    "correlationID": "c770afb7-de53-442b-b275-1982f3d859a5",
+    "paymentLinkID": "ab16ede3-a881-4212-95c3-616dcfc7b66f",
+    "createdAt": "2023-03-30T02:55:33.799Z",
+    "updatedAt": "2023-03-30T02:55:33.799Z",
+    "brCode": "00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44",
+    "paymentLinkUrl": "https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f",
+    "qrCodeImage": "https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png"
+  },
+  "pix": {
+    "payer": {
+      "name": "Wang Cheng Yuan",
+      "taxID": { "taxID": "23271983801", "type": "BR:CPF" },
+      "correlationID": "3d4a4354-9697-4e0f-a1c2-36ece4e40d4d"
+    },
+    "value": 500,
+    "time": "2023-03-30T03:02:30.394Z",
+    "endToEndId": "E18236120202303300302s0176edc4e0",
+    "transactionID": "realgolden",
+    "type": "PAYMENT",
+    "pixQrCode": {
+      "name": "real pay",
+      "value": null,
+      "comment": "Flexible timely collection code",
+      "identifier": "realgolden",
+      "correlationID": "c770afb7-de53-442b-b275-1982f3d859a5",
+      "paymentLinkID": "ab16ede3-a881-4212-95c3-616dcfc7b66f",
+      "createdAt": "2023-03-30T02:55:33.799Z",
+      "updatedAt": "2023-03-30T02:55:33.799Z",
+      "brCode": "00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44",
+      "paymentLinkUrl": "https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f",
+      "qrCodeImage": "https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png"
+    },
+    "createdAt": "2023-03-30T03:02:34.486Z",
+    "pixKey": "0c903356-7a18-4b5c-9377-bf780cafa2ef",
+    "globalID": "UGl4VHJhbnNhY3Rpb246NjQyNGZiY2FlYTY5ZDQ3ZmIzMTA4NTQy"
+  },
+  "company": {
+    "id": "63fdfcba2049336bbded05cd",
+    "name": "GOLDEN & MONEY COBRANCAS E INTERMEDIACOES LTDA",
+    "taxID": "10015421000140"
+  },
+  "account": { "clientId": "AF8EC419-D521-B6D7-EA8D-867F98CCECA1" },
+  "refunds": []
+}
+]
+2023-04-02T22:20:37.149+0800	[34mINFO[0m	[{OPENPIX:TRANSACTION_RECEIVED <nil> {real pay <nil> Flexible timely collection code realgolden c770afb7-de53-442b-b275-1982f3d859a5 ab16ede3-a881-4212-95c3-616dcfc7b66f 2023-03-30T02:55:33.799Z 2023-03-30T02:55:33.799Z 00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44 https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png} {{Wang Cheng Yuan {23271983801 BR:CPF} 3d4a4354-9697-4e0f-a1c2-36ece4e40d4d} 500 2023-03-30T03:02:30.394Z E18236120202303300302s0176edc4e0 realgolden PAYMENT {real pay <nil> Flexible timely collection code realgolden c770afb7-de53-442b-b275-1982f3d859a5 ab16ede3-a881-4212-95c3-616dcfc7b66f 2023-03-30T02:55:33.799Z 2023-03-30T02:55:33.799Z 00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44 https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png} 2023-03-30T03:02:34.486Z 0c903356-7a18-4b5c-9377-bf780cafa2ef UGl4VHJhbnNhY3Rpb246NjQyNGZiY2FlYTY5ZDQ3ZmIzMTA4NTQy} {63fdfcba2049336bbded05cd GOLDEN & MONEY COBRANCAS E INTERMEDIACOES LTDA 10015421000140} {AF8EC419-D521-B6D7-EA8D-867F98CCECA1} []}]
+2023-04-02T22:38:17.843+0800	[34mINFO[0m	[Request Body: {
+  "event": "OPENPIX:TRANSACTION_RECEIVED",
+  "charge": null,
+  "pixQrCode": {
+    "name": "real pay",
+    "value": null,
+    "comment": "Flexible timely collection code",
+    "identifier": "realgolden",
+    "correlationID": "c770afb7-de53-442b-b275-1982f3d859a5",
+    "paymentLinkID": "ab16ede3-a881-4212-95c3-616dcfc7b66f",
+    "createdAt": "2023-03-30T02:55:33.799Z",
+    "updatedAt": "2023-03-30T02:55:33.799Z",
+    "brCode": "00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44",
+    "paymentLinkUrl": "https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f",
+    "qrCodeImage": "https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png"
+  },
+  "pix": {
+    "payer": {
+      "name": "Wang Cheng Yuan",
+      "taxID": { "taxID": "23271983801", "type": "BR:CPF" },
+      "correlationID": "3d4a4354-9697-4e0f-a1c2-36ece4e40d4d"
+    },
+    "value": 500,
+    "time": "2023-03-30T03:02:30.394Z",
+    "endToEndId": "E18236120202303300302s0176edc4e0",
+    "transactionID": "realgolden",
+    "type": "PAYMENT",
+    "pixQrCode": {
+      "name": "real pay",
+      "value": null,
+      "comment": "Flexible timely collection code",
+      "identifier": "realgolden",
+      "correlationID": "c770afb7-de53-442b-b275-1982f3d859a5",
+      "paymentLinkID": "ab16ede3-a881-4212-95c3-616dcfc7b66f",
+      "createdAt": "2023-03-30T02:55:33.799Z",
+      "updatedAt": "2023-03-30T02:55:33.799Z",
+      "brCode": "00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44",
+      "paymentLinkUrl": "https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f",
+      "qrCodeImage": "https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png"
+    },
+    "createdAt": "2023-03-30T03:02:34.486Z",
+    "pixKey": "0c903356-7a18-4b5c-9377-bf780cafa2ef",
+    "globalID": "UGl4VHJhbnNhY3Rpb246NjQyNGZiY2FlYTY5ZDQ3ZmIzMTA4NTQy"
+  },
+  "company": {
+    "id": "63fdfcba2049336bbded05cd",
+    "name": "GOLDEN & MONEY COBRANCAS E INTERMEDIACOES LTDA",
+    "taxID": "10015421000140"
+  },
+  "account": { "clientId": "AF8EC419-D521-B6D7-EA8D-867F98CCECA1" },
+  "refunds": []
+}
+]
+2023-04-02T22:38:17.858+0800	[31mERROR[0m	注意:[没有开启签名验证，将会有风险]
+2023-04-02T22:38:17.858+0800	[34mINFO[0m	[{OPENPIX:TRANSACTION_RECEIVED <nil> {real pay <nil> Flexible timely collection code realgolden c770afb7-de53-442b-b275-1982f3d859a5 ab16ede3-a881-4212-95c3-616dcfc7b66f 2023-03-30T02:55:33.799Z 2023-03-30T02:55:33.799Z 00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44 https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png} {{Wang Cheng Yuan {23271983801 BR:CPF} 3d4a4354-9697-4e0f-a1c2-36ece4e40d4d} 500 2023-03-30T03:02:30.394Z E18236120202303300302s0176edc4e0 realgolden PAYMENT {real pay <nil> Flexible timely collection code realgolden c770afb7-de53-442b-b275-1982f3d859a5 ab16ede3-a881-4212-95c3-616dcfc7b66f 2023-03-30T02:55:33.799Z 2023-03-30T02:55:33.799Z 00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44 https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png} 2023-03-30T03:02:34.486Z 0c903356-7a18-4b5c-9377-bf780cafa2ef UGl4VHJhbnNhY3Rpb246NjQyNGZiY2FlYTY5ZDQ3ZmIzMTA4NTQy} {63fdfcba2049336bbded05cd GOLDEN & MONEY COBRANCAS E INTERMEDIACOES LTDA 10015421000140} {AF8EC419-D521-B6D7-EA8D-867F98CCECA1} []}]
+2023-04-02T22:44:16.442+0800	[34mINFO[0m	[Request Body: {
+  "event": "OPENPIX:TRANSACTION_RECEIVED",
+  "charge": null,
+  "pixQrCode": {
+    "name": "real pay",
+    "value": null,
+    "comment": "Flexible timely collection code",
+    "identifier": "realgolden",
+    "correlationID": "c770afb7-de53-442b-b275-1982f3d859a5",
+    "paymentLinkID": "ab16ede3-a881-4212-95c3-616dcfc7b66f",
+    "createdAt": "2023-03-30T02:55:33.799Z",
+    "updatedAt": "2023-03-30T02:55:33.799Z",
+    "brCode": "00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44",
+    "paymentLinkUrl": "https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f",
+    "qrCodeImage": "https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png"
+  },
+  "pix": {
+    "payer": {
+      "name": "Wang Cheng Yuan",
+      "taxID": { "taxID": "23271983801", "type": "BR:CPF" },
+      "correlationID": "3d4a4354-9697-4e0f-a1c2-36ece4e40d4d"
+    },
+    "value": 500,
+    "time": "2023-03-30T03:02:30.394Z",
+    "endToEndId": "E18236120202303300302s0176edc4e0",
+    "transactionID": "realgolden",
+    "type": "PAYMENT",
+    "pixQrCode": {
+      "name": "real pay",
+      "value": null,
+      "comment": "Flexible timely collection code",
+      "identifier": "realgolden",
+      "correlationID": "c770afb7-de53-442b-b275-1982f3d859a5",
+      "paymentLinkID": "ab16ede3-a881-4212-95c3-616dcfc7b66f",
+      "createdAt": "2023-03-30T02:55:33.799Z",
+      "updatedAt": "2023-03-30T02:55:33.799Z",
+      "brCode": "00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44",
+      "paymentLinkUrl": "https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f",
+      "qrCodeImage": "https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png"
+    },
+    "createdAt": "2023-03-30T03:02:34.486Z",
+    "pixKey": "0c903356-7a18-4b5c-9377-bf780cafa2ef",
+    "globalID": "UGl4VHJhbnNhY3Rpb246NjQyNGZiY2FlYTY5ZDQ3ZmIzMTA4NTQy"
+  },
+  "company": {
+    "id": "63fdfcba2049336bbded05cd",
+    "name": "GOLDEN & MONEY COBRANCAS E INTERMEDIACOES LTDA",
+    "taxID": "10015421000140"
+  },
+  "account": { "clientId": "AF8EC419-D521-B6D7-EA8D-867F98CCECA1" },
+  "refunds": []
+}
+]
+2023-04-02T22:44:16.457+0800	[31mERROR[0m	注意:[没有开启签名验证，将会有风险]
+2023-04-02T22:44:16.458+0800	[34mINFO[0m	event:[/CHARGE_CREATED]
+2023-04-02T22:44:26.126+0800	[34mINFO[0m	[Request Body: {
+  "event": "OPENPIX:TRANSACTION_RECEIVED",
+  "charge": null,
+  "pixQrCode": {
+    "name": "real pay",
+    "value": null,
+    "comment": "Flexible timely collection code",
+    "identifier": "realgolden",
+    "correlationID": "c770afb7-de53-442b-b275-1982f3d859a5",
+    "paymentLinkID": "ab16ede3-a881-4212-95c3-616dcfc7b66f",
+    "createdAt": "2023-03-30T02:55:33.799Z",
+    "updatedAt": "2023-03-30T02:55:33.799Z",
+    "brCode": "00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44",
+    "paymentLinkUrl": "https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f",
+    "qrCodeImage": "https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png"
+  },
+  "pix": {
+    "payer": {
+      "name": "Wang Cheng Yuan",
+      "taxID": { "taxID": "23271983801", "type": "BR:CPF" },
+      "correlationID": "3d4a4354-9697-4e0f-a1c2-36ece4e40d4d"
+    },
+    "value": 500,
+    "time": "2023-03-30T03:02:30.394Z",
+    "endToEndId": "E18236120202303300302s0176edc4e0",
+    "transactionID": "realgolden",
+    "type": "PAYMENT",
+    "pixQrCode": {
+      "name": "real pay",
+      "value": null,
+      "comment": "Flexible timely collection code",
+      "identifier": "realgolden",
+      "correlationID": "c770afb7-de53-442b-b275-1982f3d859a5",
+      "paymentLinkID": "ab16ede3-a881-4212-95c3-616dcfc7b66f",
+      "createdAt": "2023-03-30T02:55:33.799Z",
+      "updatedAt": "2023-03-30T02:55:33.799Z",
+      "brCode": "00020126580014br.gov.bcb.pix01360c903356-7a18-4b5c-9377-bf780cafa2ef5204000053039865802BR5924GOLDEN_&_MONEY_COBRANCAS6009Sao_Paulo62140510realgolden63049D44",
+      "paymentLinkUrl": "https://openpix.com.br/pay/ab16ede3-a881-4212-95c3-616dcfc7b66f",
+      "qrCodeImage": "https://api.openpix.com.br/openpix/charge/brcode/image/ab16ede3-a881-4212-95c3-616dcfc7b66f.png"
+    },
+    "createdAt": "2023-03-30T03:02:34.486Z",
+    "pixKey": "0c903356-7a18-4b5c-9377-bf780cafa2ef",
+    "globalID": "UGl4VHJhbnNhY3Rpb246NjQyNGZiY2FlYTY5ZDQ3ZmIzMTA4NTQy"
+  },
+  "company": {
+    "id": "63fdfcba2049336bbded05cd",
+    "name": "GOLDEN & MONEY COBRANCAS E INTERMEDIACOES LTDA",
+    "taxID": "10015421000140"
+  },
+  "account": { "clientId": "AF8EC419-D521-B6D7-EA8D-867F98CCECA1" },
+  "refunds": []
+}
+]
+2023-04-02T22:44:26.133+0800	[31mERROR[0m	注意:[没有开启签名验证，将会有风险]
+2023-04-02T22:44:26.133+0800	[34mINFO[0m	event:[/CHARGE_COMPLETED]

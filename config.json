@@ -1,0 +1,9 @@
+{
+    "isSign": false,
+    "dsn": "root:048F3F725A9A23640D37DC8804DC607C@tcp(52.69.153.245:3307)/4pay?charset=utf8",
+    "log": {
+        "dir": "logs",
+        "filename": "app.log"
+    },
+    "secretKeyOnOpenpixPlatform": ""
+}
